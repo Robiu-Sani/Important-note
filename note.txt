@@ -1,2 +1,6 @@
-for mouse right click event remove
+1. for mouse right click event remove
 <body oncontextmenu="return false">
+or
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+}, false);
