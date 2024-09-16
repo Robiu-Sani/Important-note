@@ -1,0 +1,2 @@
+for mouse right click event remove
+<body oncontextmenu="return false">
