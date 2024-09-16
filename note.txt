@@ -4,3 +4,11 @@ or
 document.addEventListener('contextmenu', function (e) {
     e.preventDefault();
 }, false);
+or
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
